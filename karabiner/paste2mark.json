@@ -1,0 +1,25 @@
+{
+  "title": "Paste as Markdown",
+  "rules": [
+    {
+      "description": "Option+V to paste rich text as markdown",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": ["option"],
+              "optional": ["any"]
+            }
+          },
+          "to": [
+            {
+              "shell_command": "/usr/bin/python3 /Users/neelnanda/Code/paste2mark/paste2mark.py"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
