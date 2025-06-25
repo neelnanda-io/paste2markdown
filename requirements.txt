@@ -1,0 +1,6 @@
+pyobjc-framework-Cocoa==10.1
+pyobjc-framework-Quartz==10.1
+pynput==1.7.6
+html2text==2020.1.16
+markdownify==0.11.6
+beautifulsoup4==4.12.2
