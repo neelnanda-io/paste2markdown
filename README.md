@@ -1,4 +1,6 @@
-# paste2mark
+**Warning**: The below was entirely written by Claude Code, use at your own risk.
+
+# paste2markdown
 
 Convert rich text to Markdown when pasting on macOS using Karabiner-Elements.
 
